@@ -1,0 +1,70 @@
+/* Pengaturan dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #708090;
+  }
+  
+  /* Gaya untuk kotak kontainer registrasi */
+  .login-container {
+    background-color: #9CA2C1; /* Warna latar belakang kotak login */
+    border-radius: 8px; /* Tambahkan sudut bulat pada kotak */
+    padding: 20px; /* Ruang dalam kotak */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kotak */
+    text-align: center; /* Pusatkan teks dalam kotak */
+    width: 300px; /* Lebar kotak login */
+  }
+  
+  /* Gaya untuk logo */
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Gaya untuk teks judul */
+  .login-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Gaya untuk grup input */
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Gaya untuk label input */
+  .input-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  /* Gaya untuk field input */
+  .input-field {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Gaya untuk tombol submit */
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Gaya untuk tautan login */
+  .register-link {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cont {
+    text-align: center; 
+    
+}
+
+.container1 {
+    height: 45vh;
+    
+}
+
+.container2 {
+    background-color: transparent;
+    box-shadow: 0 0 2px 2px black;
+    height: 7vh;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.bck {
+    background-color: transparent;
+    box-shadow: 0 0 2px 2px black;
+}
+
+.back {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+   
+}
+
+.profil {
+    width: 200px;
+    height: 200px;
+    margin-right: 150vh;
+    margin-top: 20px;
+}
+
+.update {
+    margin-top: -40vh;
+    margin-right: 15vh;
+    
+}
+
+.update select {
+    width: 80vh;
+    height: 40px;
+    margin: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 0 2px 2px black;
+}
+
+.update .up1 {
+    width: 80vh;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 0 1px 1px black;
+}
+
+.update .up2 {
+    width: 40vh;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 0 1px 1px black;
+    background-color: grey;
+}
+
+.update .up2:hover {
+    background-color: lightslategray;
+}
+
+.container2 h1 {
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.update input:focus { 
+    outline: none;
+}
+
+.np {
+    text-align: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.np img{
+    width: 70px;
+    height: 70px;
+    margin-left: 6px;
+    margin-top: 11.5vh;
+    opacity: 0.7;
+}
+
+.upload {
+    margin: auto;
+}
+
+.upload .rightRound {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #0084FF;
+    width: 38px;
+    height: 38px;
+    line-height: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 175vh;
+    margin-bottom: 65vh;
+}
+
+.upload .rightRound img{
+    width: 28px;
+    height: 28px;
+
+}
+
+.upload .leftRound {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: red;
+    width: 60px;
+    height: 60px;
+    line-height: 33px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    margin-left: 5vh;
+    margin-bottom: 40vh;
+}
+
+.upload .fi{
+    color: black;
+}
+
+.upload input {
+    position: absolute;
+    transform: scale(1.1);
+    opacity: 0;
+    margin-left: 1vh;
+}
+
+.upload input::-webkit-file-upload-button, .upload input[type=submit]{
+    cursor: pointer;
+}

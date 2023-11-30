@@ -1,0 +1,69 @@
+/* Pengaturan dasar untuk halaman */
+body {
+  font-family: Arial, sans-serif; /* Menggunakan font Arial jika tersedia, jika tidak, gunakan sans-serif */
+  display: flex; /* Menggunakan model tampilan flexbox */
+  justify-content: center; /* Pusatkan konten horizontal */
+  align-items: center; /* Pusatkan konten vertikal */
+  min-height: 100vh; /* Set ketinggian minimum hingga 100% dari tinggi viewport */
+  margin: 0; /* Hilangkan margin pada body */
+  background-color: #708090; /* Warna latar belakang */
+}
+
+/* Gaya untuk kotak kontainer login */
+.login-container {
+  background-color: #9CA2C1; /* Warna latar belakang kotak login */
+  border-radius: 8px; /* Tambahkan sudut bulat pada kotak */
+  padding: 20px; /* Ruang dalam kotak */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kotak */
+  text-align: center; /* Pusatkan teks dalam kotak */
+  width: 300px; /* Lebar kotak login */
+}
+
+/* Gaya untuk logo */
+.logo {
+  width: 80px; /* Ukuran logo */
+  height: 80px;
+  margin-bottom: 10px; /* Ruang bawah dari logo */
+}
+
+/* Gaya untuk teks judul */
+.login-text {
+  font-size: 20px; /* Ukuran teks */
+  margin-bottom: 20px; /* Ruang bawah dari teks judul */
+}
+
+/* Gaya untuk grup input */
+.input-group {
+  margin-bottom: 10px; /* Ruang bawah dari setiap grup input */
+}
+
+/* Gaya untuk label input */
+.input-label {
+  display: block; /* Menampilkan label sebagai blok, supaya satu per baris */
+  margin-bottom: 6px; /* Ruang bawah dari label input */
+  font-weight: bold; /* Teks label ditebalkan */
+}
+
+/* Gaya untuk field input */
+.input-field {
+  width: 80%; /* Lebar input mencapai 100% dari kotak input */
+  padding: 8px; /* Ruang dalam input */
+  border: 1px solid #ccc; /* Garis tepi input */
+  border-radius: 4px; /* Sudut bulat input */
+}
+
+/* Gaya untuk tombol submit */
+.submit-button {
+  background-color: #007bff; /* Warna tombol */
+  color: #fff; /* Warna teks pada tombol */
+  padding: 10px 20px; /* Ruang dalam tombol */
+  border: none; /* Hilangkan garis tepi tombol */
+  border-radius: 4px; /* Sudut bulat tombol */
+  cursor: pointer; /* Ganti kursor menjadi tanda tangan saat diarahkan ke tombol */
+}
+
+/* Gaya untuk tautan registrasi */
+.register-link {
+  margin-top: 10px; /* Ruang atas dari tautan registrasi */
+  display: inline-block; /* Tampilkan tautan sebagai inline block */
+}

@@ -1,0 +1,262 @@
+/* Mengatur tampilan awal untuk semua elemen HTML */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Gaya untuk elemen dengan kelas .FContainer */
+.FContainer {
+    width: 100%;
+    height: 10hv;
+    background-color: #E5E7E9;
+}
+
+/* Gaya untuk elemen dengan kelas .navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Gaya untuk gambar dalam elemen dengan kelas .navigation */
+.navigation>li>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk elemen <li> dalam .navigation */
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>h3 {
+    left: 100px;
+}
+
+/* CSS untuk tombol logout */
+.logout-button {
+    background-color: #408BE3;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animasi perubahan warna latar belakang dan teks */
+}
+
+.logout-button:hover {
+    background-color: #205BA2; /* Warna latar belakang saat tombol dihover */
+    color: #FFFFFF; /* Warna teks saat tombol dihover */
+}
+
+.tambah-roda {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    width: 6%;
+    height: 7px;
+    padding: 10px;
+}
+
+.tambah-roda > img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.tambah-roda > h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.ads {
+    position: relative;
+    left: 1240px;/* Sesuaikan angka ini dengan jarak yang diinginkan dari sisi kanan */
+    top: -35px; /* Sesuaikan angka ini dengan jarak yang diinginkan dari sisi atas */
+    display: flex;
+    align-items: center;
+    width: 6%;
+    height: 8px;
+    padding: 10px;
+}
+
+.ads > img {
+    width: 40px;
+    height: 23px;
+    flex-shrink: 0;
+    margin-right: 1px;
+}
+
+.ads > h2 {
+    font-size: 20px;
+    margin: 0;
+} 
+
+/* Tambahkan gaya untuk modal di sini */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+/* Gaya untuk konten modal */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+/* Gaya untuk judul modal */
+.modal-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk isi modal */
+.modal-body {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol-tombol modal */
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Gaya untuk tombol modal */
+.modal-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Gaya untuk tombol modal "Batal" */
+.modal-buttons button.cancel {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Gaya untuk tombol modal "Konfirmasi" */
+.modal-buttons button.confirm {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Gaya untuk footer navbar */
+.footer-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 400px;
+}
+
+/* Gaya untuk daftar dalam footer navbar */
+.footer-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Gaya untuk elemen dalam daftar footer navbar */
+.footer-navbar li {
+    margin: 0 5px; /* Ubah margin sesuai kebutuhan pada layar yang lebih kecil */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+.footer-navbar ul li {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px; /* Ganti dengan ukuran font yang Anda inginkan */
+}
+
+/* Gaya untuk tautan dalam daftar footer navbar */
+.footer-navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px; /* Jarak antara gambar dan teks pada layar yang lebih kecil */
+    font-size: 12px; /* Ubah ukuran font sesuai kebutuhan pada layar yang lebih kecil */
+}
+
+/* Media query untuk layar dengan lebar kurang dari 600px (sesuaikan sesuai kebutuhan) */
+@media screen and (max-width: 600px) {
+    /* Gaya untuk gambar dalam daftar footer navbar pada layar yang lebih kecil */
+    .footer-navbar img {
+        width: 30px; /* Ubah lebar gambar pada layar yang lebih kecil */
+        height: 30px; /* Ubah tinggi gambar pada layar yang lebih kecil */
+    }
+
+    /* Gaya untuk tautan dalam daftar footer navbar pada layar yang lebih kecil */
+    .footer-navbar a {
+        font-size: 10px; /* Ubah ukuran font pada layar yang lebih kecil */
+    }
+    
+    
+}
+
+/* Gaya untuk tautan saat disorot dalam daftar footer navbar */
+.footer-navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Gaya untuk gambar dalam daftar footer navbar */
+.footer-navbar img {
+    width: 30px; /* Ubah lebar gambar sesuai kebutuhan pada layar yang lebih kecil */
+    height: 30px; /* Ubah tinggi gambar sesuai kebutuhan pada layar yang lebih kecil */
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .ads {
+        position: relative;
+        left: 280px;
+        top: -40px;
+        margin: 10px 0; /* Sesuaikan sesuai kebutuhan */
+        width: 100%; /* Lebar 100% agar memenuhi lebar layar */
+    }
+}
+
+/* Gaya untuk elemen "tambah-roda" pada layar kecil (mobile) */
+@media screen and (max-width: 600px) {
+    .tambah-roda {
+        width: 18%; /* Lebar 100% agar sesuai dengan layar mobile */
+        margin: 10px 0 0 15px; /* Sesuaikan sesuai kebutuhan */
+    }
+    
+    .tambah-roda > img {
+        width: 20px; /* Sesuaikan ukuran gambar sesuai kebutuhan di layar mobile */
+        height: 20px;
+    }
+    
+    .tambah-roda > h2 {
+        font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan di layar mobile */
+    }
+}
